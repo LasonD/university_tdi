@@ -1,0 +1,238 @@
+@prefix : <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5/> .
+
+<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5> rdf:type owl:Ontology .
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#AchievementsProgression
+:AchievementsProgression rdf:type owl:Class ;
+                         rdfs:subClassOf :ScoringSystem .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Badges
+:Badges rdf:type owl:Class ;
+        rdfs:subClassOf :ScoringSystem .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#CollaborativeGame
+:CollaborativeGame rdf:type owl:Class ;
+                   rdfs:subClassOf :Game .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Exam
+:Exam rdf:type owl:Class ;
+      rdfs:subClassOf :Test .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Game
+:Game rdf:type owl:Class ;
+      rdfs:subClassOf :LearningActivity .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Guest
+:Guest rdf:type owl:Class ;
+       rdfs:subClassOf :Participant .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#LearningActivity
+:LearningActivity rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Marks
+:Marks rdf:type owl:Class ;
+       rdfs:subClassOf :ScoringSystem .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Participant
+:Participant rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#ScoringSystem
+:ScoringSystem rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#SingularGame
+:SingularGame rdf:type owl:Class ;
+              rdfs:subClassOf :Game .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Student
+:Student rdf:type owl:Class ;
+         rdfs:subClassOf :Participant .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Teacher
+:Teacher rdf:type owl:Class ;
+         rdfs:subClassOf :Participant .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Test
+:Test rdf:type owl:Class ;
+      rdfs:subClassOf :LearningActivity .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#TopicRecap
+:TopicRecap rdf:type owl:Class ;
+            rdfs:subClassOf :Test .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Tournament
+:Tournament rdf:type owl:Class ;
+            rdfs:subClassOf :Game .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Anastasia_B.
+<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Anastasia_B.> rdf:type owl:NamedIndividual ,
+                                                                                                :Student ;
+                                                                                       rdfs:comment "Студент, який бере участь у різноманітних навчальних заходах." .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#BeginnerBadge
+:BeginnerBadge rdf:type owl:NamedIndividual ,
+                        :Badges .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Chemistry_Midterm
+:Chemistry_Midterm rdf:type owl:NamedIndividual ,
+                            :Exam ;
+                   rdfs:comment "Екзамен у середині семестру, який оцінює знання з хімії." .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#EducationConsultant
+:EducationConsultant rdf:type owl:NamedIndividual ,
+                              :Guest ;
+                     rdfs:comment "An expert invited to assess and provide feedback on educational games." .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Final_Mathematics_Exam
+:Final_Mathematics_Exam rdf:type owl:NamedIndividual ,
+                                 :Exam ;
+                        rdfs:comment "Іспит наприкінці семестру, який охоплює всі теми з математики, які викладаються." .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Geography_Olympiad
+:Geography_Olympiad rdf:type owl:NamedIndividual ,
+                             :Tournament ;
+                    rdfs:comment "Турнір з перевірки знань з географії." .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#History_Explorer
+:History_Explorer rdf:type owl:NamedIndividual ,
+                           :SingularGame ;
+                  rdfs:comment "Гра, в якій один гравець переміщується історичними подіями." .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Literature_Lover
+:Literature_Lover rdf:type owl:NamedIndividual ,
+                           :Badges ;
+                  rdfs:comment "Присуджується студентам, які показали виняткове розуміння контрольних робіт з літератури." .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Literature_Review_Test
+:Literature_Review_Test rdf:type owl:NamedIndividual ,
+                                 :TopicRecap ;
+                        rdfs:comment "Тест, призначений для повторення основних обговорюваних тем літератури." .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Math_Master
+:Math_Master rdf:type owl:NamedIndividual ,
+                      :AchievementsProgression ;
+             rdfs:comment "Досягнення за опанування всіх рівнів математичної гри." .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Math_Race
+:Math_Race rdf:type owl:NamedIndividual ,
+                    :CollaborativeGame ;
+           rdfs:comment "Гра, у якій учні об’єднуються в команди, щоб разом розв’язувати математичні задачі." .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Mr._Brown
+:Mr._Brown rdf:type owl:NamedIndividual ,
+                    :Teacher ;
+           rdfs:comment "Учитель, який організовує та контролює навчальну діяльність." .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Ms._Adams
+:Ms._Adams rdf:type owl:NamedIndividual ,
+                    :Teacher ;
+           rdfs:comment "Викладач спеціалізується на створенні та оцінюванні тестів." .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Oleksandr_K.
+<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Oleksandr_K.> rdf:type owl:NamedIndividual ,
+                                                                                                :Student ;
+                                                                                       rdfs:comment "Інший учень активно брав участь в класних іграх і тестах." .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#ParentObserver
+:ParentObserver rdf:type owl:NamedIndividual ,
+                         :Guest ;
+                rdfs:comment "Батько відвідує клас, щоб спостерігати за навчальними діями." .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Pass_in_TopicRecap
+:Pass_in_TopicRecap rdf:type owl:NamedIndividual ,
+                             :Marks ;
+                    rdfs:comment "Базовий прохідний бал для повторювальних тестів." .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Quiz_Whiz
+:Quiz_Whiz rdf:type owl:NamedIndividual ,
+                    :Badges ;
+           rdfs:comment "Значок для кращих виконавців у щотижневих вікторинах." .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Science_Expert
+:Science_Expert rdf:type owl:NamedIndividual ,
+                         :AchievementsProgression ;
+                rdfs:comment "Присуджується, коли студент успішно виконує всі наукові завдання." .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Science_Quest
+:Science_Quest rdf:type owl:NamedIndividual ,
+                        :CollaborativeGame ;
+               rdfs:comment "Команди співпрацюють, щоб проводити експерименти та розгадувати наукові головоломки." .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Spelling_Bee
+:Spelling_Bee rdf:type owl:NamedIndividual ,
+                       :Tournament ;
+              rdfs:comment "Конкурентний орфографічний турнір." .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Vocabulary_Builder
+:Vocabulary_Builder rdf:type owl:NamedIndividual ,
+                             :SingularGame ;
+                    rdfs:comment "Індивідуальна гра, спрямована на розширення словникового запасу англійської мови." .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#WeeklyStreakBadge
+:WeeklyStreakBadge rdf:type owl:NamedIndividual ,
+                            :Badges .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Weekly_Physics_Quiz
+:Weekly_Physics_Quiz rdf:type owl:NamedIndividual ,
+                              :TopicRecap ;
+                     rdfs:comment "A short quiz recapping the week's physics lessons." .
+
+
+###  http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#A+_in_Final_Exam
+<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#A+_in_Final_Exam> rdf:type owl:NamedIndividual ,
+                                                                                                    :Marks ;
+                                                                                           rdfs:comment "Найвища оцінка, яку можна отримати на будь-якому іспиті." .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi

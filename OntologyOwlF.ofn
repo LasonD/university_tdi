@@ -1,0 +1,233 @@
+Prefix(:=<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5>
+
+Declaration(Class(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#AchievementsProgression>))
+Declaration(Class(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Badges>))
+Declaration(Class(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#CollaborativeGame>))
+Declaration(Class(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Exam>))
+Declaration(Class(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Game>))
+Declaration(Class(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Guest>))
+Declaration(Class(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#LearningActivity>))
+Declaration(Class(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Marks>))
+Declaration(Class(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Participant>))
+Declaration(Class(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#ScoringSystem>))
+Declaration(Class(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#SingularGame>))
+Declaration(Class(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Student>))
+Declaration(Class(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Teacher>))
+Declaration(Class(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Test>))
+Declaration(Class(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#TopicRecap>))
+Declaration(Class(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Tournament>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Anastasia_B.>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#BeginnerBadge>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Chemistry_Midterm>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#EducationConsultant>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Final_Mathematics_Exam>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Geography_Olympiad>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#History_Explorer>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Literature_Lover>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Literature_Review_Test>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Math_Master>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Math_Race>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Mr._Brown>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Ms._Adams>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Oleksandr_K.>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#ParentObserver>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Pass_in_TopicRecap>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Quiz_Whiz>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Science_Expert>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Science_Quest>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Spelling_Bee>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Vocabulary_Builder>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#WeeklyStreakBadge>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Weekly_Physics_Quiz>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#A+_in_Final_Exam>))
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#AchievementsProgression> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#AchievementsProgression>)
+
+SubClassOf(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#AchievementsProgression> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#ScoringSystem>)
+
+# Class: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Badges> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Badges>)
+
+SubClassOf(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Badges> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#ScoringSystem>)
+
+# Class: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#CollaborativeGame> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#CollaborativeGame>)
+
+SubClassOf(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#CollaborativeGame> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Game>)
+
+# Class: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Exam> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Exam>)
+
+SubClassOf(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Exam> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Test>)
+
+# Class: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Game> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Game>)
+
+SubClassOf(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Game> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#LearningActivity>)
+
+# Class: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Guest> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Guest>)
+
+SubClassOf(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Guest> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Participant>)
+
+# Class: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Marks> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Marks>)
+
+SubClassOf(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Marks> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#ScoringSystem>)
+
+# Class: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#SingularGame> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#SingularGame>)
+
+SubClassOf(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#SingularGame> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Game>)
+
+# Class: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Student> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Student>)
+
+SubClassOf(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Student> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Participant>)
+
+# Class: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Teacher> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Teacher>)
+
+SubClassOf(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Teacher> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Participant>)
+
+# Class: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Test> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Test>)
+
+SubClassOf(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Test> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#LearningActivity>)
+
+# Class: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#TopicRecap> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#TopicRecap>)
+
+SubClassOf(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#TopicRecap> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Test>)
+
+# Class: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Tournament> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Tournament>)
+
+SubClassOf(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Tournament> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Game>)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Anastasia_B.> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Anastasia_B.>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Anastasia_B.> "Студент, який бере участь у різноманітних навчальних заходах.")
+ClassAssertion(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Student> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Anastasia_B.>)
+
+# Individual: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#BeginnerBadge> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#BeginnerBadge>)
+
+ClassAssertion(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Badges> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#BeginnerBadge>)
+
+# Individual: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Chemistry_Midterm> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Chemistry_Midterm>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Chemistry_Midterm> "Екзамен у середині семестру, який оцінює знання з хімії.")
+ClassAssertion(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Exam> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Chemistry_Midterm>)
+
+# Individual: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#EducationConsultant> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#EducationConsultant>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#EducationConsultant> "An expert invited to assess and provide feedback on educational games.")
+ClassAssertion(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Guest> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#EducationConsultant>)
+
+# Individual: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Final_Mathematics_Exam> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Final_Mathematics_Exam>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Final_Mathematics_Exam> "Іспит наприкінці семестру, який охоплює всі теми з математики, які викладаються.")
+ClassAssertion(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Exam> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Final_Mathematics_Exam>)
+
+# Individual: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Geography_Olympiad> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Geography_Olympiad>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Geography_Olympiad> "Турнір з перевірки знань з географії.")
+ClassAssertion(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Tournament> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Geography_Olympiad>)
+
+# Individual: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#History_Explorer> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#History_Explorer>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#History_Explorer> "Гра, в якій один гравець переміщується історичними подіями.")
+ClassAssertion(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#SingularGame> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#History_Explorer>)
+
+# Individual: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Literature_Lover> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Literature_Lover>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Literature_Lover> "Присуджується студентам, які показали виняткове розуміння контрольних робіт з літератури.")
+ClassAssertion(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Badges> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Literature_Lover>)
+
+# Individual: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Literature_Review_Test> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Literature_Review_Test>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Literature_Review_Test> "Тест, призначений для повторення основних обговорюваних тем літератури.")
+ClassAssertion(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#TopicRecap> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Literature_Review_Test>)
+
+# Individual: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Math_Master> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Math_Master>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Math_Master> "Досягнення за опанування всіх рівнів математичної гри.")
+ClassAssertion(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#AchievementsProgression> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Math_Master>)
+
+# Individual: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Math_Race> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Math_Race>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Math_Race> "Гра, у якій учні об’єднуються в команди, щоб разом розв’язувати математичні задачі.")
+ClassAssertion(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#CollaborativeGame> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Math_Race>)
+
+# Individual: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Mr._Brown> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Mr._Brown>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Mr._Brown> "Учитель, який організовує та контролює навчальну діяльність.")
+ClassAssertion(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Teacher> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Mr._Brown>)
+
+# Individual: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Ms._Adams> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Ms._Adams>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Ms._Adams> "Викладач спеціалізується на створенні та оцінюванні тестів.")
+ClassAssertion(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Teacher> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Ms._Adams>)
+
+# Individual: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Oleksandr_K.> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Oleksandr_K.>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Oleksandr_K.> "Інший учень активно брав участь в класних іграх і тестах.")
+ClassAssertion(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Student> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Oleksandr_K.>)
+
+# Individual: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#ParentObserver> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#ParentObserver>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#ParentObserver> "Батько відвідує клас, щоб спостерігати за навчальними діями.")
+ClassAssertion(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Guest> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#ParentObserver>)
+
+# Individual: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Pass_in_TopicRecap> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Pass_in_TopicRecap>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Pass_in_TopicRecap> "Базовий прохідний бал для повторювальних тестів.")
+ClassAssertion(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Marks> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Pass_in_TopicRecap>)
+
+# Individual: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Quiz_Whiz> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Quiz_Whiz>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Quiz_Whiz> "Значок для кращих виконавців у щотижневих вікторинах.")
+ClassAssertion(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Badges> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Quiz_Whiz>)
+
+# Individual: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Science_Expert> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Science_Expert>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Science_Expert> "Присуджується, коли студент успішно виконує всі наукові завдання.")
+ClassAssertion(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#AchievementsProgression> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Science_Expert>)
+
+# Individual: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Science_Quest> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Science_Quest>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Science_Quest> "Команди співпрацюють, щоб проводити експерименти та розгадувати наукові головоломки.")
+ClassAssertion(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#CollaborativeGame> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Science_Quest>)
+
+# Individual: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Spelling_Bee> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Spelling_Bee>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Spelling_Bee> "Конкурентний орфографічний турнір.")
+ClassAssertion(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Tournament> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Spelling_Bee>)
+
+# Individual: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Vocabulary_Builder> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Vocabulary_Builder>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Vocabulary_Builder> "Індивідуальна гра, спрямована на розширення словникового запасу англійської мови.")
+ClassAssertion(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#SingularGame> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Vocabulary_Builder>)
+
+# Individual: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#WeeklyStreakBadge> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#WeeklyStreakBadge>)
+
+ClassAssertion(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Badges> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#WeeklyStreakBadge>)
+
+# Individual: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Weekly_Physics_Quiz> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Weekly_Physics_Quiz>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Weekly_Physics_Quiz> "A short quiz recapping the week's physics lessons.")
+ClassAssertion(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#TopicRecap> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Weekly_Physics_Quiz>)
+
+# Individual: <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#A+_in_Final_Exam> (<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#A+_in_Final_Exam>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#A+_in_Final_Exam> "Найвища оцінка, яку можна отримати на будь-якому іспиті.")
+ClassAssertion(<http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#Marks> <http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5#A+_in_Final_Exam>)
+
+
+)

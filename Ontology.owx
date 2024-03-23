@@ -1,0 +1,736 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5">
+    <Prefix name="" IRI="http://www.semanticweb.org/legion/ontologies/2024/1/untitled-ontology-5/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#AchievementsProgression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Badges"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CollaborativeGame"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiffucultyLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Game"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Guest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LearningActivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Marks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Participant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ScoringSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SingularGame"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Student"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teacher"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TopicRecap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tournament"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#attends"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#awardedFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasJudge"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasParticipant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasScoringSystem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAssessedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPeerOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTaughtBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#organizedBy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#mark"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#maxNumberOfParticipants"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#minNumberOfParticipants"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#topic"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#username"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Advanced"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anastasia_B."/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Beginner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BeginnerBadge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chemistry_Midterm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EducationConsultant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Final_Mathematics_Exam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Geography_Olympiad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#History_Explorer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Judge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Literature_Lover"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Literature_Review_Test"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Math_Master"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Math_Race"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mr._Brown"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ms._Adams"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oleksandr_K."/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ParentObserver"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pass_in_TopicRecap"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quiz_Whiz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Science_Expert"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Science_Quest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spelling_Bee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vocabulary_Builder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WeeklyStreakBadge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Weekly_Physics_Quiz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A+_in_Final_Exam"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#DiffucultyLevel"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Advanced"/>
+            <NamedIndividual IRI="#Beginner"/>
+            <NamedIndividual IRI="#Medium"/>
+            <NamedIndividual IRI="#Pro"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#AchievementsProgression"/>
+        <Class IRI="#ScoringSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Badges"/>
+        <Class IRI="#ScoringSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CollaborativeGame"/>
+        <Class IRI="#Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CollaborativeGame"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="#hasParticipant"/>
+            <Class IRI="#Student"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exam"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exam"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#organizedBy"/>
+            <Class IRI="#Teacher"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Game"/>
+        <Class IRI="#LearningActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guest"/>
+        <Class IRI="#Participant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LearningActivity"/>
+        <ObjectIntersectionOf>
+            <ObjectUnionOf>
+                <Class IRI="#Game"/>
+                <Class IRI="#Test"/>
+            </ObjectUnionOf>
+            <ObjectComplementOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Game"/>
+                    <Class IRI="#Test"/>
+                </ObjectIntersectionOf>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LearningActivity"/>
+        <ObjectUnionOf>
+            <Class IRI="#Teacher"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasParticipant"/>
+                <Class IRI="#Student"/>
+            </ObjectAllValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Marks"/>
+        <Class IRI="#ScoringSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ScoringSystem"/>
+        <Class IRI="#AchievementsProgression"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SingularGame"/>
+        <Class IRI="#Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SingularGame"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#hasParticipant"/>
+            <Class IRI="#Student"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Student"/>
+        <Class IRI="#Participant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Student"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isTaughtBy"/>
+            <Class IRI="#Teacher"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teacher"/>
+        <Class IRI="#Participant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test"/>
+        <Class IRI="#LearningActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TopicRecap"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tournament"/>
+        <Class IRI="#Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tournament"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasJudge"/>
+            <NamedIndividual IRI="#Judge"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Game"/>
+        <Class IRI="#Test"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#DiffucultyLevel"/>
+        <NamedIndividual IRI="#Advanced"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Student"/>
+        <NamedIndividual IRI="#Anastasia_B."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DiffucultyLevel"/>
+        <NamedIndividual IRI="#Beginner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Badges"/>
+        <NamedIndividual IRI="#BeginnerBadge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Exam"/>
+        <NamedIndividual IRI="#Chemistry_Midterm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Guest"/>
+        <NamedIndividual IRI="#EducationConsultant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Exam"/>
+        <NamedIndividual IRI="#Final_Mathematics_Exam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tournament"/>
+        <NamedIndividual IRI="#Geography_Olympiad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SingularGame"/>
+        <NamedIndividual IRI="#History_Explorer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Teacher"/>
+        <NamedIndividual IRI="#Judge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Badges"/>
+        <NamedIndividual IRI="#Literature_Lover"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TopicRecap"/>
+        <NamedIndividual IRI="#Literature_Review_Test"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AchievementsProgression"/>
+        <NamedIndividual IRI="#Math_Master"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CollaborativeGame"/>
+        <NamedIndividual IRI="#Math_Race"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DiffucultyLevel"/>
+        <NamedIndividual IRI="#Medium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Teacher"/>
+        <NamedIndividual IRI="#Mr._Brown"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Teacher"/>
+        <NamedIndividual IRI="#Ms._Adams"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Student"/>
+        <NamedIndividual IRI="#Oleksandr_K."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Guest"/>
+        <NamedIndividual IRI="#ParentObserver"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Marks"/>
+        <NamedIndividual IRI="#Pass_in_TopicRecap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DiffucultyLevel"/>
+        <NamedIndividual IRI="#Pro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Badges"/>
+        <NamedIndividual IRI="#Quiz_Whiz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AchievementsProgression"/>
+        <NamedIndividual IRI="#Science_Expert"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CollaborativeGame"/>
+        <NamedIndividual IRI="#Science_Quest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tournament"/>
+        <NamedIndividual IRI="#Spelling_Bee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SingularGame"/>
+        <NamedIndividual IRI="#Vocabulary_Builder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Badges"/>
+        <NamedIndividual IRI="#WeeklyStreakBadge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TopicRecap"/>
+        <NamedIndividual IRI="#Weekly_Physics_Quiz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Marks"/>
+        <NamedIndividual IRI="#A+_in_Final_Exam"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#attends"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#awardedFor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasJudge"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasParticipant"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#organizedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#isPeerOf"/>
+    </SymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attends"/>
+        <Class IRI="#Student"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#awardedFor"/>
+        <Class IRI="#AchievementsProgression"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#awardedFor"/>
+        <Class IRI="#Badges"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasParticipant"/>
+        <Class IRI="#LearningActivity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAssessedBy"/>
+        <Class IRI="#Test"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPeerOf"/>
+        <Class IRI="#Student"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <Class IRI="#Student"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#organizedBy"/>
+        <Class IRI="#LearningActivity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#attends"/>
+        <Class IRI="#LearningActivity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#awardedFor"/>
+        <Class IRI="#LearningActivity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasParticipant"/>
+        <Class IRI="#Participant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasScoringSystem"/>
+        <Class IRI="#ScoringSystem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAssessedBy"/>
+        <Class IRI="#Marks"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPeerOf"/>
+        <Class IRI="#Student"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTaughtBy"/>
+        <Class IRI="#Teacher"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#organizedBy"/>
+        <Class IRI="#Teacher"/>
+    </ObjectPropertyRange>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#attends"/>
+            <ObjectProperty IRI="#organizedBy"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#isTaughtBy"/>
+    </SubObjectPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#mark"/>
+        <Class IRI="#Marks"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#mark"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#mark"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:int"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+                </FacetRestriction>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">100</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataAllValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#maxNumberOfParticipants"/>
+        <Class IRI="#CollaborativeGame"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#maxNumberOfParticipants"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#maxNumberOfParticipants"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:int"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                </FacetRestriction>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1000</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataAllValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#minNumberOfParticipants"/>
+        <Class IRI="#CollaborativeGame"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#minNumberOfParticipants"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#minNumberOfParticipants"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:int"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataAllValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#topic"/>
+        <Class IRI="#TopicRecap"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#username"/>
+        <Class IRI="#Participant"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#mark"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#maxNumberOfParticipants"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#minNumberOfParticipants"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#topic"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#username"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Anastasia_B.</IRI>
+        <Literal>Студент, який бере участь у різноманітних навчальних заходах.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chemistry_Midterm</IRI>
+        <Literal>Екзамен у середині семестру, який оцінює знання з хімії.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EducationConsultant</IRI>
+        <Literal>An expert invited to assess and provide feedback on educational games.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Final_Mathematics_Exam</IRI>
+        <Literal>Іспит наприкінці семестру, який охоплює всі теми з математики, які викладаються.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Geography_Olympiad</IRI>
+        <Literal>Турнір з перевірки знань з географії.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#History_Explorer</IRI>
+        <Literal>Гра, в якій один гравець переміщується історичними подіями.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Literature_Lover</IRI>
+        <Literal>Присуджується студентам, які показали виняткове розуміння контрольних робіт з літератури.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Literature_Review_Test</IRI>
+        <Literal>Тест, призначений для повторення основних обговорюваних тем літератури.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Math_Master</IRI>
+        <Literal>Досягнення за опанування всіх рівнів математичної гри.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Math_Race</IRI>
+        <Literal>Гра, у якій учні об’єднуються в команди, щоб разом розв’язувати математичні задачі.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mr._Brown</IRI>
+        <Literal>Учитель, який організовує та контролює навчальну діяльність.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ms._Adams</IRI>
+        <Literal>Викладач спеціалізується на створенні та оцінюванні тестів.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Oleksandr_K.</IRI>
+        <Literal>Інший учень активно брав участь в класних іграх і тестах.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ParentObserver</IRI>
+        <Literal>Батько відвідує клас, щоб спостерігати за навчальними діями.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pass_in_TopicRecap</IRI>
+        <Literal>Базовий прохідний бал для повторювальних тестів.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Quiz_Whiz</IRI>
+        <Literal>Значок для кращих виконавців у щотижневих вікторинах.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Science_Expert</IRI>
+        <Literal>Присуджується, коли студент успішно виконує всі наукові завдання.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Science_Quest</IRI>
+        <Literal>Команди співпрацюють, щоб проводити експерименти та розгадувати наукові головоломки.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Spelling_Bee</IRI>
+        <Literal>Конкурентний орфографічний турнір.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vocabulary_Builder</IRI>
+        <Literal>Індивідуальна гра, спрямована на розширення словникового запасу англійської мови.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Weekly_Physics_Quiz</IRI>
+        <Literal>A short quiz recapping the week&apos;s physics lessons.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#attends</IRI>
+        <Literal>Вказує на те, які навчальні активності відвідує або бере участь студент.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#A+_in_Final_Exam</IRI>
+        <Literal>Найвища оцінка, яку можна отримати на будь-якому іспиті.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
